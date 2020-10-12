@@ -1,0 +1,130 @@
+
+.fit {
+  max-width: 100%;
+  max-height: auto;
+  margin:auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+    opacity:0.6;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 18%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:rgb(115, 115, 115);
+    color: white;
+    font-size: 32px;
+    font-family: 'Rock Salt', cursive;
+    padding: 1px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-content: center;
+  }
+  
+  .container .btn:hover {
+    background-color:rgb(185, 185, 185);
+  }
+
+.container .second {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:black;
+    align-items: center;
+}
+
+.container2 {
+    position: absolute;
+    top: 57%;
+    left:50%; 
+}
+
+.project_releaseDate {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-bottom: 15px;
+
+}
+
+.project_albumName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.project_artistName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.footer {
+    margin:auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.project_link {
+    position: absolute;
+    top: 280px;
+    left: 92px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#1DB954;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* align-content: center; */
+}
+
+.project_link:hover {
+    background-color:forestgreen;
+  }
+
+
+#_listenLinks {
+    display:none;
+    font-family: none;
+}
+
+
+#canvas_container {
+  position: absolute;
+  top:59%;
+  left: 20%;
+  border-radius: 25px;
+}
+
+#_albumImage {
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  opacity: 60%;
+}
+
+#_artistName {
+  line-height: 6px;
+  font-size: 20px;
+}
